@@ -4,6 +4,19 @@ I'm looking for a new maintainer for this project, please indicate your interest
 
 [![Pub](https://img.shields.io/pub/v/usb_serial.svg)](https://pub.dartlang.org/packages/usb_serial) [![Flutter](https://github.com/altera2015/usbserial/actions/workflows/flutter.yml/badge.svg)](https://github.com/altera2015/usbserial/actions/workflows/flutter.yml)
 
+```text
+usbserial:
+git:
+url: git@github.com:zbm2/usbserial
+Fork of original
+Updates to gradle build and SDK 36
+Plugin gradle can remain in imperative style, at least for the moment.
+Example
+Gradle config manually converted to declarative style, phew
+Builds cleanly, works which it did not before, link to main activity had got lost, reinstated.
+Deprecations?
+```
+
 # usb_serial
 
 An Android USB Serial Flutter Plugin
